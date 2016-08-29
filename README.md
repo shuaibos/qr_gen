@@ -76,9 +76,10 @@ Data to encode: HELLO WORLD
 As there was no LCD available for the MCU, in order to evauluate the QR code, the raw data matrix was copied in to a spreadsheet. Then conditional formatting was applied:
   - If 1, set cell background and font colour to black.
   - If 0, set cell background and font colour to white.
-That operation produced the following QR code for the case above:
-  
 
+The conditional formatting operation produced the following QR code (for the case above):
+  
+![alt tag](https://cloud.githubusercontent.com/assets/11454244/18050245/bcdc6a40-6ded-11e6-9f3e-af495755c1c0.png)
 
 ##Limitations and Optimizations
 - Version 1 QR code
